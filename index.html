@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="style.css" />
         <title>Google</title>
     </head>
-    <body>
+    <body onload="countPopup();">
         <header>
                 <a href="https://www.google.com/intl/fr/gmail/about/#" class=gmailimages>Gmail</a>
                 <a href="https://www.google.fr/imghp?hl=fr&tab=wi" class=gmailimages>Images</a>
@@ -20,13 +20,15 @@
 
         <center id=centre>
 
-          <div class=logo><img src=logo_google.png alt="Google logo"></div>
+          <div class=logo>
+            <img src=logo_google.png alt="Google logo">
+          </div>
 
           <div class=topnav>
 
             <input id=leinput class=box type="text" name="monchamp" value="">
 
-        </div>
+          </div>
 
 
             <div class=lesboutons>

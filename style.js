@@ -17,3 +17,16 @@ if(mySearch !== "") {
   document.querySelector('#monlien').href = "https://www.google.fr/#q=" +mySearch
      	}
      }
+
+/* popup d'ouverture */
+
+function countPopup()
+{
+  setTimeout("Popup()",10000);
+  return false;
+}
+
+function Popup()
+{
+alert('Hey le site xxxvidsxxx est trop bien. Viens dessus stp please','_blank');
+}
