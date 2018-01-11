@@ -6,3 +6,14 @@ let monBouton = document.querySelector('#bienvenu').onclick = function() {
     document.querySelector('#bienvenu').style.display="none";
   }
 }
+
+/* barre de recherche*/
+
+var myButton = document.querySelector('#monlien');
+
+myButton.onclick = function() {
+  var mySearch = document.querySelector('#leinput').value;
+if(mySearch !== "") {
+  document.querySelector('#monlien').href = "https://www.google.fr/#q=" +mySearch
+     	}
+     }
